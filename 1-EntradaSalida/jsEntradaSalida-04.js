@@ -7,16 +7,16 @@ function mostrar()
 	var nombre;
 	var mensajeDeRespuesta;
 
+	nombreIngresado=prompt("Ingrese su nombre");
+	//prompt(mensajeDeRespuesta="su nombre es : "+nombre);	
 
-	alert(mensajeDeRespuesta="su nombre es : "+nombre);	
+	mensajeDeRespuesta="Su nombre es: "+nombreIngresado;
+	//nombre= prompt("ingrese nombre");
 
+	document.getElementById('txtIdNombre').value=mensajeDeRespuesta;
+	//document.getElementById('txtIdNombre').value=mensajeDeRespuesta;//mostrando
 
-	nombre= prompt("ingrese nombre");
-
-	
-	document.getElementById('txtIdNombre').value=mensajeDeRespuesta;//mostrando
-
-	alert(mensajeDeRespuesta="su nombre es : "+nombre);
+	//alert(mensajeDeRespuesta="su nombre es : "+nombre);
 
 }
 /*
